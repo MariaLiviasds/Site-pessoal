@@ -1,0 +1,48 @@
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin: 4%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    background-color: bisque;
+}
+
+.link {
+    display: flex;
+    gap: 55px;
+    align-items: last baseline;
+}
+
+.links{
+    text-decoration: none;
+    color: #ff002b;
+}
+
+#logo {
+    width: 13%;
+
+}
+
+.main {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+    justify-content: center;
+    color: rgb(247, 8, 47);
+}
+
+button{
+    width: 14%;
+    padding: 1%;
+    border: none;
+    border-radius: 8px;
+    background-color: brown;
+
+}
